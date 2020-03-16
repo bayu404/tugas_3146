@@ -1,0 +1,35 @@
+using system;
+
+{
+    class monitor
+}
+
+private String resolution;
+private Boolean supportHdmi;
+private double size;
+
+public Monitor(String resolution,Boolean supportHdmi,double size){
+    this.resolution = resolution;
+    this.supportHdmi = supportHdmi;
+    this.size = size
+}
+private String getResolution(){
+    return this.resolution;
+}
+
+private Boolean isSupportHdmi(){
+
+}
+
+public override String ToString()
+{
+        return $"Monitor resolution:
+    {resolution} ; Monitor support hdmi :
+    {supportHdmi}; Monitor dimensi :
+    {size} inch ";
+            }
+
+}
+
+
+}
